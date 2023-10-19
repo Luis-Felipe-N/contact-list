@@ -101,3 +101,11 @@ button, input, textarea {
 main {
   min-height: calc(100vh - (6rem));
 }
+
+button {
+  cursor: pointer;
+  transition: .2s;
+  &:hover {
+    filter: brightness(.9)
+  }
+}
