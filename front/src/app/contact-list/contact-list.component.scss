@@ -1,7 +1,7 @@
 .contact {
   max-width: 700px;
   margin: 0 auto;
-  padding: 5rem 0;
+  padding: 5rem 1rem;
 
   &-form {
     input {
@@ -48,6 +48,7 @@
 
   &-card {
     --border-raduis: 5px;
+    margin-top: .5rem;
     display: flex;
     gap: 1rem;
     background-color: var(--gray-800);
